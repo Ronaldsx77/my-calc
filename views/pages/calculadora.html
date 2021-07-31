@@ -5,33 +5,33 @@
     <meta charset="utf-8" />
   </head>
   <body onkeypress="manipularTeclado()">
-      <table>
+      <table>   
           <tr>
-              <td colspan="6"><input type="text" id="display" value="0" disabled></td>
+              <td colspan="6"><input type="text" id="display" value="0" disabled style=width:200px></td>
           </tr>
           <tr>
-            <td><input type="button" value="7" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="8" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="9" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="*" onclick="atualizarOperacao(this)" /></td>
+            <td><input type="button" value="7" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="8" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="9" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="*" onclick="atualizarOperacao(this)" style='width:45px; height:45px'/></td>
         </tr>
         <tr>
-            <td><input type="button" value="4" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="5" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="6" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="-" onclick="atualizarOperacao(this)" /></td>
+            <td><input type="button" value="4" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="5" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="6" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="-" onclick="atualizarOperacao(this)" style='width:45px; height:45px'/></td>
         </tr>
         <tr>
-            <td><input type="button" value="1" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="2" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="3" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="+" onclick="atualizarOperacao(this)" /></td>
+            <td><input type="button" value="1" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="2" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="3" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="+" onclick="atualizarOperacao(this)" style='width:45px; height:45px'/></td>
         </tr>
         <tr>
-            <td><input type="button" value="C" onclick="limparDisplay()" /></td>
-            <td><input type="button" value="0" onclick="atualizarDisplay(this)" /></td>
-            <td><input type="button" value="=" onclick="calcularOperacao()" /></td>
-            <td><input type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+            <td><input type="button" value="C" onclick="limparDisplay()" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="0" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
+            <td><input type="button" value="=" onclick="calcularOperacao()" style='width:45px; height:45px; background-color: cadetblue;'/></td>
+            <td><input type="button" value="/" onclick="atualizarOperacao(this)" style='width:45px; height:45px'/></td>
         </tr>
       </table>
       <script>
