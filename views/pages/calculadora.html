@@ -4,10 +4,10 @@
     <title>Calculadora</title>
     <meta charset="utf-8" />
   </head>
-  <body onkeypress="manipularTeclado()" style='display: flex; justify-content: center; align-items: center; height: 97vh'>
-      <table>          
+  <body onkeypress="manipularTeclado()" style='display: flex; justify-content: center; align-items: center; height: 97vh; background-image:linear-gradient(45deg,black,crimson);'>
+      <table style=background-color:grey>          
           <tr>
-              <td colspan="6"><input type="text" id="display" value="0" disabled style=width:200px></td>
+              <td colspan="6"><input type="text" id="display" value="0" disabled style=width:190px></td>
           </tr>
           <tr>
             <td><input type="button" value="7" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
@@ -30,7 +30,7 @@
         <tr>
             <td><input type="button" value="C" onclick="limparDisplay()" style='width:45px; height:45px'/></td>
             <td><input type="button" value="0" onclick="atualizarDisplay(this)" style='width:45px; height:45px'/></td>
-            <td><input type="button" value="=" onclick="calcularOperacao()" style='width:45px; height:45px; background-color: crimson; font-size: 20px'/></td>
+            <td><input type="button" value="=" onclick="calcularOperacao()" style='width:45px; height:45px; background-color:crimson; font-size: 20px'/></td>
             <td><input type="button" value="/" onclick="atualizarOperacao(this)" style='width:45px; height:45px; font-size: 20px'/></td>
         </tr>
       </table>
